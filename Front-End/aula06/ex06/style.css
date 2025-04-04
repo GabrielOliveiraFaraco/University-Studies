@@ -15,12 +15,13 @@ body{
     /* border: 1px solid; */
     margin-top: 50px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .titulo {
     font-size: 28px;
-    display: inline-block;
-    margin-right: 20px;
 }
 
 .link{
@@ -92,4 +93,31 @@ td{
 
 .bl-orange{
     border-left: 3px solid #FA7B17;
+}
+
+.gols{
+    width: 60%;
+    margin-top: 20px;
+}
+
+.gols img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.gols h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.gols table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.text_left{
+    text-align: left;
 }
